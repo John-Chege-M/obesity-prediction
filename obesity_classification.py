@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("d:\MACHINE LEARNING PROJECTS\obessity classification\obesity_classification.pkl")
+model = joblib.load("obesity_classification.pkl")
 
 st.header("Are you Obese?  Lets Use Machine Learning to Predict")
 st.write()
